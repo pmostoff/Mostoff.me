@@ -173,6 +173,21 @@ pre code {
   outline: none;
   background: none;
 }
+/* ====== Back/Home Buttons ====== */
+.back-button {
+    float: right;
+    margin-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.back-button .btn {
+    background-color: #2d2d2d;
+    border-color: #666666;
+}
+.back-button .btn:hover {
+    background-color: #2d2d2d;
+    border-color: #ffffff;
+}
 /* ======= About Section ======= */
 .profile_personal {
     border: 5px solid #ffffff;
@@ -196,34 +211,36 @@ pre code {
 .about .btns .btn:hover {
     background-color: #2d2d2d;
 }
-.back-button {
-    float: right;
-    margin-right: 30px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+/* ======= Separator Section ======= */
+.separator {
+    padding: 80px 0;
+    background: #666666;
+    color: #fff;
 }
-.back-button .btn {
-    background-color: #2d2d2d;
-    border-color: #666666;
-}
-.back-button .btn:hover {
-    background-color: #2d2d2d;
-    border-color: #ffffff;
-}
-/* ======= Portfolio Section ======= */
-.portfolio {
+/* ======= Content Section ======= */
+.content {
     padding: 80px 0;
 }
-.portfolio .title {
+.content .title {
     color: #444444;
     margin-top: 0;
     margin-bottom: 50px;
 }
-.portfolio .intro {
-    max-width: 800px;
+.content .content-inner {
+    max-width: 100%;
+    background: #fff;
+    padding: 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
     margin: 0 auto;
-    margin-bottom: 60px;
 }
+/* ======= Content Section - Panels ======= */
 .row-centered {
     text-align: center;
 }
@@ -245,35 +262,6 @@ pre code {
     margin-right: auto;
     max-height: 100%;
     max-width: 100%;
-}
-/* ======= Separator Section ======= */
-.separator {
-    padding: 80px 0;
-    background: #666666;
-    color: #fff;
-}
-/* ======= Content Section ======= */
-.content {
-    padding: 80px 0;
-}
-.content .title {
-    margin-top: 0;
-    margin-bottom: 50px;
-    color: #444444;
-}
-.content .content-inner {
-    max-width: 100%;
-    background: #fff;
-    padding: 30px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    margin: 0 auto;
 }
 /* ======= Contact Section ======= */
 .contact {
