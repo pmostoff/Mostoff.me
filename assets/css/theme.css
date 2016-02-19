@@ -220,6 +220,10 @@ a.btn-primary:hover,
     margin-right: 10px;
     border-radius: 50%;
     background-clip: padding-box;
+    /* The following transition causes the buttons to shrink back down rather than snap back to original state when no longer being hovered over */
+    -webkit-transform: scale(1,1);
+    -moz-transform: scale(1,1);
+    transition: all 1s ease;
 }
 .contact .social-icons:hover {
     background: #666666;
