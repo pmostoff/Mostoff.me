@@ -1,7 +1,8 @@
 //Global Variables
 $websiteBackgroundColor: #f5f5f5;
-$primaryColor: #444444;
-$secondaryColor: #666666;
+$darkColor: #2d2d2d;
+$mediumColor: #444444;
+$lightColor: #666666;
 $whiteFont: #ffffff;
 
 /* ======= Base ======= */
@@ -12,7 +13,7 @@ html {
 body {
     font-family: 'Lato', arial, sans-serif;
     font-size: 16px;
-    color: $primaryColor;
+    color: $mediumColor;
     background-color: $websiteBackgroundColor;
     min-height: 100%;
     margin-bottom: 50px;
@@ -39,14 +40,14 @@ a.btn-primary,
 .btn-primary {
     font-weight: 600;
     color: $whiteFont;
-    background: #2d2d2d;
-    border: 1px solid #2d2d2d;
+    background: $darkColor;
+    border: 1px solid $darkColor;
 }
 a.btn-primary:hover,
 .btn-primary:hover {
     color: $whiteFont;
-    background: $secondaryColor6;
-    border: 1px solid $secondaryColor6;
+    background: $lightColor;
+    border: 1px solid $lightColor;
 
 }
 /* ======= Header ======= */
@@ -55,12 +56,12 @@ a.btn-primary:hover,
     z-index: 9999;
     width: 100%;
     padding: 10px 0;
-    color: $secondaryColor;
-    background: #2d2d2d;
+    color: $lightColor;
+    background: $darkColor;
 }
 .header.navbar-fixed-top {
     z-index: 9999;
-    background: #2d2d2d;
+    background: $darkColor;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 .header.navbar-fixed-top .logo a {
@@ -112,7 +113,7 @@ a.btn-primary:hover,
     padding: 15px 10px;
 }
 .header .main-nav .nav .nav-item a:hover {
-    color: $secondaryColor;
+    color: $lightColor;
     background: none;
 }
 .header .main-nav .nav .nav-item a:focus {
@@ -131,11 +132,11 @@ a.btn-primary:hover,
     padding-bottom: 7px;
 }
 .back-button .btn {
-    background-color: #2d2d2d;
-    border-color: $secondaryColor6;
+    background-color: $darkColor;
+    border-color: $lightColor;
 }
 .back-button .btn:hover {
-    background-color: #2d2d2d;
+    background-color: $darkColor;
     border-color: #ffffff;
 }
 /* ======= About Section ======= */
@@ -148,30 +149,30 @@ a.btn-primary:hover,
     margin-bottom: auto;
 }
 .about {
-    background: #2d2d2d;
+    background: $darkColor;
     color: $whiteFont;
     padding-top: 100px;
 }
 .about .btns .btn {
-    background-color: $secondaryColor6;
+    background-color: $lightColor;
     font-size: 18px;
     padding: 8px 30px;
     margin-right: 15px;
 }
 .about .btns .btn:hover {
-    background-color: #2d2d2d;
+    background-color: $darkColor;
 }
 /* ======= Separator Section ======= */
 .separator {
     padding: 80px 0;
-    background: $secondaryColor6;
+    background: $lightColor;
 }
 /* ======= Content Section ======= */
 .content {
     padding: 80px 0;
 }
 .content .title {
-    color: $primaryColor;
+    color: $mediumColor;
     margin-top: 0;
     margin-bottom: 50px;
 }
@@ -208,7 +209,7 @@ a.btn-primary:hover,
 /* ======= Contact Section ======= */
 .contact {
     padding: 80px 0;
-    background: $secondaryColor6;
+    background: $lightColor;
     color: $whiteFont;
 }
 .contact a {
@@ -219,7 +220,7 @@ a.btn-primary:hover,
 }
 .contact .social-icons {
     display: inline-block;
-    background: #2d2d2d;
+    background: $darkColor;
     width: 50px;
     height: 50px;
     margin-left: 10px;
@@ -232,7 +233,7 @@ a.btn-primary:hover,
     transition: all 1s ease;
 }
 .contact .social-icons:hover {
-    background: $secondaryColor6;
+    background: $lightColor;
     -webkit-transform: scale(1.25,1.25);
     -moz-transform: scale(1.25,1.25);
     transition: all 1s ease;
@@ -281,7 +282,7 @@ a.btn-primary:hover,
     height: 50px;
     bottom: 0;
     padding: 15px 0;
-    background: #2d2d2d;
+    background: $darkColor;
     color: $whiteFont;
 }
 /* Extra small devices (phones, less than 768px) */
