@@ -1,8 +1,7 @@
 /* ======= Base ======= */
 html {
   position: relative;
-  min-height: 100%;
-}
+  min-height: 100%; }
 
 body {
   font-family: 'Lato', arial, sans-serif;
@@ -12,43 +11,36 @@ body {
   min-height: 100%;
   margin-bottom: 50px;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  -moz-osx-font-smoothing: grayscale; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 a {
   color: #0e98c5;
-  transition: all 0.5s ease-in-out;
-}
+  transition: all 0.5s ease-in-out; }
 
 a:hover {
   text-decoration: underline;
-  color: #0022d5;
-}
+  color: #0022d5; }
 
 .btn,
 a.btn {
   font-weight: bold;
-  transition: all 0.5s ease-in-out;
-}
+  transition: all 0.5s ease-in-out; }
 
 a.btn-primary,
 .btn-primary {
   font-weight: 600;
   color: #ffffff;
   background: #2d2d2d;
-  border: 1px solid #2d2d2d;
-}
+  border: 1px solid #2d2d2d; }
 
 a.btn-primary:hover,
 .btn-primary:hover {
   color: #ffffff;
   background: #666666;
-  border: 1px solid #666666;
-}
+  border: 1px solid #666666; }
 
 /* ======= Header ======= */
 .header {
@@ -57,107 +49,87 @@ a.btn-primary:hover,
   width: 100%;
   padding: 10px 0;
   color: #666666;
-  background: #2d2d2d;
-}
+  background: #2d2d2d; }
 
 .header.navbar-fixed-top {
   z-index: 9999;
   background: #2d2d2d;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
 
 .header.navbar-fixed-top .logo a {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .header.navbar-fixed-top .main-nav .nav .nav-item a {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .header .logo {
   margin: 0;
   font-size: 26px;
   padding-top: 12px;
-  padding-bottom: 12px;
-}
+  padding-bottom: 12px; }
 
 .header .logo a {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .header .logo a:hover {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .header .main-nav button {
   background: none;
   color: #ffffff;
   border-radius: 5px;
-  background-clip: padding-box;
-}
+  background-clip: padding-box; }
 
 .header .main-nav button:focus {
-  outline: none;
-}
+  outline: none; }
 
 .header .main-nav button .icon-bar {
-  background-color: #ffffff;
-}
+  background-color: #ffffff; }
 
 .header .main-nav .navbar-collapse {
-  padding: 0;
-}
+  padding: 0; }
 
 .header .main-nav .nav .nav-item {
   font-weight: normal;
-  margin-right: 30px;
-}
+  margin-right: 30px; }
 
 .header .main-nav .nav .nav-item.active a {
   color: #ffffff;
   font-weight: bold;
-  background: none;
-}
+  background: none; }
 
 .header .main-nav .nav .nav-item a {
   color: #ffffff;
   transition: none;
   font-size: 14px;
-  padding: 15px 10px;
-}
+  padding: 15px 10px; }
 
 .header .main-nav .nav .nav-item a:hover {
   color: #666666;
-  background: none;
-}
+  background: none; }
 
 .header .main-nav .nav .nav-item a:focus {
   outline: none;
-  background: none;
-}
+  background: none; }
 
 .header .main-nav .nav .nav-item a:active {
   outline: none;
-  background: none;
-}
+  background: none; }
 
 /* ====== Back/Home Buttons ====== */
 .back-button {
   float: right;
   margin-right: 30px;
   padding-top: 7px;
-  padding-bottom: 7px;
-}
+  padding-bottom: 7px; }
 
 .back-button .btn {
   background-color: #2d2d2d;
-  border-color: #666666;
-}
+  border-color: #666666; }
 
 .back-button .btn:hover {
   background-color: #2d2d2d;
-  border-color: #ffffff;
-}
+  border-color: #ffffff; }
 
 /* ======= About Section ======= */
 .profile_personal {
@@ -166,55 +138,46 @@ a.btn-primary:hover,
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
-  margin-bottom: auto;
-}
+  margin-bottom: auto; }
 
 .about {
   background: #2d2d2d;
   color: #ffffff;
-  padding-top: 100px;
-}
+  padding-top: 100px; }
 
 .about .btns .btn {
   background-color: #666666;
   font-size: 18px;
   padding: 8px 30px;
-  margin-right: 15px;
-}
+  margin-right: 15px; }
 
 .about .btns .btn:hover {
-  background-color: #2d2d2d;
-}
+  background-color: #2d2d2d; }
 
 /* ======= Separator Section ======= */
 .separator {
   padding: 80px 0;
-  background: #666666;
-}
+  background: #666666; }
 
 /* ======= Content Section ======= */
 .content {
-  padding: 80px 0;
-}
+  padding: 80px 0; }
 
 .content .title {
   color: #444444;
   margin-top: 0;
-  margin-bottom: 50px;
-}
+  margin-bottom: 50px; }
 
 .content .content-inner {
   max-width: 100%;
   background: #ffffff;
   padding: 30px;
   margin: 0 auto;
-  border-radius: 10px;
-}
+  border-radius: 10px; }
 
 /* ======= Content Section - Panels ======= */
 .row-centered {
-  text-align: center;
-}
+  text-align: center; }
 
 .col-centered {
   display: inline-block;
@@ -223,35 +186,29 @@ a.btn-primary:hover,
   /* Reset the text align */
   text-align: left;
   /* inline-block space fix */
-  margin-right: -4px;
-}
+  margin-right: -4px; }
 
 .panel {
-  max-width: 330px;
-}
+  max-width: 330px; }
 
 .PreviewImage {
   display: block;
   max-width: 100%;
   max-height: 100%;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
 /* ======= Contact Section ======= */
 .contact {
   padding: 80px 0;
   background: #666666;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .contact a {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .contact a:hover {
-  color: #000000;
-}
+  color: #000000; }
 
 .contact .social-icons {
   display: inline-block;
@@ -265,28 +222,24 @@ a.btn-primary:hover,
   /* The following transition causes the buttons to shrink back down rather than snap back to original state when no longer being hovered over */
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
-  transition: all 1s ease;
-}
+  transition: all 1s ease; }
 
 .contact .social-icons:hover {
   background: #666666;
   -webkit-transform: scale(1.25, 1.25);
   -moz-transform: scale(1.25, 1.25);
-  transition: all 1s ease;
-}
+  transition: all 1s ease; }
 
 /* ====== Image Placement for App Pages ====== */
 .iPhoneScreen {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
 .AppStoreBadge {
   display: block;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; }
 
 /* ====== 404 Page-Specififc Styles ====== */
 .PageNotFoundContent {
@@ -295,26 +248,22 @@ a.btn-primary:hover,
   width: 90%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-}
+  transform: translate(-50%, -50%); }
 
 .PageNotFoundMessage {
   text-align: center;
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-}
+  transform: translate(-50%, -50%); }
 
 .Error {
   font-weight: 700;
-  font-size: 150px;
-}
+  font-size: 150px; }
 
 .PageNotFound {
   font-weight: 700;
-  font-size: 30px;
-}
+  font-size: 30px; }
 
 /* ======= Footer ======= */
 .footer {
@@ -326,8 +275,7 @@ a.btn-primary:hover,
   bottom: 0;
   padding: 15px 0;
   background: #2d2d2d;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
@@ -336,29 +284,28 @@ a.btn-primary:hover,
     z-index: 9999;
     padding: 10px 0;
     position: fixed;
-    width: 100%;
-  }
+    width: 100%; }
+
   .header .main-nav button {
-    margin-right: 0;
-  }
+    margin-right: 0; }
+
   .header .main-nav .navbar-collapse {
     padding-left: 15px;
-    padding-right: 15px;
-  }
+    padding-right: 15px; }
+
   .about .btns .btn {
     margin-right: 0;
     clear: both;
     display: block;
-    margin-bottom: 30px;
-  }
-  .about .title {
-    font-size: 66px;
-  }
-  .back-button {
-    margin-right: 0px;
-  }
-}
+    margin-bottom: 30px; }
 
+  .about .title {
+    font-size: 66px; }
+
+  .back-button {
+    margin-right: 0px; } }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Large devices (large desktops, 1200px and up) */
+
+/*# sourceMappingURL=theme.css.map */
