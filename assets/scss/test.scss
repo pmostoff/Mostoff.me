@@ -1,4 +1,10 @@
-/* ======= Base ======= */
+//Global Variables
+$websiteBackgroundColor: #f5f5f5;
+$primaryColor: #444444;
+$secondaryColor: #666666;
+$whiteFont: #ffffff;
+
+//Base
 html {
     position: relative;
     min-height: 100%;
@@ -6,8 +12,8 @@ html {
 body {
     font-family: 'Lato', arial, sans-serif;
     font-size: 16px;
-    color: #444444;
-    background-color: #f5f5f5;
+    color: $primaryColor;
+    background-color: $websiteBackgroundColor;
     min-height: 100%;
     margin-bottom: 50px;
     -webkit-font-smoothing: antialiased;
@@ -32,17 +38,18 @@ a.btn {
 a.btn-primary,
 .btn-primary {
     font-weight: 600;
-    color: #ffffff;
+    color: $whiteFont;
     background: #2d2d2d;
     border: 1px solid #2d2d2d;
 }
 a.btn-primary:hover,
 .btn-primary:hover {
-    color: #ffffff;
-    background: #666666;
-    border: 1px solid #666666;
+    color: $whiteFont;
+    background: $secondaryColor;
+    border: 1px solid $secondaryColor;
 
 }
+
 /* ======= Header ======= */
 .header {
     position: fixed;
@@ -243,12 +250,8 @@ a.btn-primary:hover,
     margin-right: auto;
 }
 /* ====== 404 Page-Specififc Styles ====== */
-.PageNotFoundContent {
-    height: 100%;
-}
 .PageNotFoundMessage {
-    min-height: 100%;
-    min-width: 100%;
+    width: 100%;
     text-align: center;
 }
 /* ======= Footer ======= */
