@@ -2,4 +2,8 @@ mostoff.me
 
 ======
 
-Personal Webpage
+Personal Landing Webpage
+- Details About Me
+- Project Pages
+- Blog Posts
+- Contact Information
