@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ====== Title ====== -->
+    <title>Peter Mostoff - Blog</title>
+
+    <!-- ====== Meta ====== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <!-- ====== End Meta ====== -->
+
+    <!-- ====== Favicon link ====== -->
+    <link rel="icon" href="../assets/images/favicon.png">
+    <!-- ====== Bootstrap CSS ====== -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <!-- ====== Custom Theme CSS ====== -->
+    <link rel="stylesheet" href="../assets/css/theme.css">
+</head>
+
+<body data-spy="scroll">
+
+    <!-- ====== Header ====== -->
+    <header id="header" class="header">
+        <div class="container">
+            <h1 class="logo pull-left">
+                <a href="../index.html">
+                    <span class="logo-title">Mostoff.me</span>
+                </a>
+            </h1>
+            <nav id="main-nav" class="main-nav navbar-right">
+                <div class="navbar-header">
+                    <div class="btns back-button">
+                        <a class="btn btn-primary" href="../blog.html">Blog</a>
+                    </div>
+                    <!-- <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button> -->
+                </div>
+                <!-- <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="scrollto" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#myprojects">My Projects</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#blog">Blog</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#contact">Contact</a></li>
+                    </ul>
+                </div> -->
+            </nav>
+        </div>
+    </header>
+    <!-- ====== End Header ====== -->
+
+    <!-- ====== Content ====== -->
+    <section id="content" class="content section">
+        <div class="container">
+            <div class="content-inner">
+                <div class="container">
+                    <div class="col-xs-12 col-sm-10 col-md-10">
+                        <h1>Simultaneous Projects</h1>
+                        <h5>May 25, 2017</h5>
+                        <hr>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-10 col-md-10 doubleSpacing">
+                        <p>Yesterday I released an update to my app Gone So Far and released two new apps: Hydration and HeartRate.</p>
+
+                        <p>Since publishing my first app, I've really looked forward to releasing another. There was something very satisfying about the idea of seeing multiple icons when I searched for my name on the store. As it turns out, it does feel pretty nice.</p>
+
+                        <p>It was interesting working on multiple projects at once. It was nice at some points because I could use code in multiple places and really get into a flow. It was frustrating at other times when I would simply confuse which project window I was working in. Ultimately, it was a pretty good experience and I think I got better at it the more I got used to switching between them.</p>
+                        <h3>Gone So Far</h3>
+                          <p>Since I was working on version 2.1 of Gone So Far while I was developing Hydration and HeartRate, I was able to incorporate some of the design decisions I made in my new apps into the update. The major addition is a new history chart. What was the Stretch Goals tab is now the History tab. Up top, you can see your distance history in a nice chart, while the stretch goals you have saved show up in a table on the lower half of the screen. I also made some minor tweaks to several UI elements and redesigned the settings screen.</p>
+                          <a href="https://itunes.apple.com/us/app/id1080412492?mt=8">View Gone So Far on the App Store.</a>
+                        <h3>Hydration</h3>
+                          <p>Hydration is a water intake tracker. You can set a daily goal manually or have the app calculate one for you based on your gender, weight, and activity level. You can modify four quick input buttons or manually input a custom amount at any time. The history tab gives you an overview of your intake history and a table displays the inputs you've made for the current day. In the event that you make a mistake with an input, you can swipe left on any of these entries to delete it.</p>
+                          <p>I wasn't sure about writing a water tracker initially. I had used one in the past but wasn't a big fan of the app. More importantly, I can understand the argument that you shouldn't need an app to tell you when to drink water. However, recently I've been focusing more on my health and realized, somewhat sadly, that I can definitely forget to drink enough. After a few occasions where I didn't drink enough water during the day and got a headache in return, I thought it would be worth a try. So now I try to keep track of it a bit more and so far, less headaches! Hooray!</p>
+                          <a href="https://itunes.apple.com/us/app/id1236086101?mt=8">View Hydration on the App Store.</a>
+                        <h3>HeartRate</h3>
+                          <p>HeartRate is designed to let you quickly and easily get an overview of your heart health. Using the heart rate data saved to Apple's Health app, HeartRate displays your latest heart rate along with statistics for the day: your average, minimum, and maximum BPM. In the history tab, you can view your minimum and maximum heart rate across time frames. You can view the day broken down by hours, the week or month broken down by day, or the year broken down by month.</p>
+                          <p>I find heart rate data to be pretty interesting. Since starting my work on this app I’ve started to pay a lot more attention to when my heart rate hits peaks and valley’s during the day. I was even surprised to find that one of my highest heart rates on most days occurs when I’m asleep. I hope this app will be useful to anyone else who wants a way to visualize this type of data.</p>
+                          <a href="https://itunes.apple.com/us/app/id1236088071?mt=8">View HeartRate on the App Store.</a>
+                        <h3>GraphView</h3>
+                          <p>One of the things I wanted to add to all three of my apps was a chart somewhat similar to what you see in Apple's own Health app. After searching around for a while for a way to do this using native UI components I realized there just wasn't anything quite like what I was hoping to accomplish. So I set out to make it on my own. Not having much experience messing around with Core Graphics, this was a bit of a challenge. I found a few tutorials that I skimmed and after learning how to draw lines and text, I was able to throw something together for testing. After getting most of the functionality hooked up across apps, I prettied up the chart a bit more and I’m pretty happy with what I was able to accomplish. There are still a few improvements I’d like to make and I’m considering the idea of cleaning up my code and open sourcing it at some point. No promises on a time frame for that, though.</p>
+                        <h3>App Review</h3>
+                          <p>Somewhat of an aside, but I’d just like to give a shoutout to the app review team. I was never directly effected by the slow app review times of the past but I followed developers who had to deal with it and it always seemed so painful to have to go through. It’s pretty terrific how much they’ve been able to speed things up. I spent the afternoon and evening putting the finishing touches on my apps before submitting them for review in the early hours of the morning. Even though I ran into a small metadata issue, all three of my apps were reviewed and ready for release in under 24 hours. Bravo, review team!</p>
+                        <h3>Going forward...</h3>
+                          <p>So what project is up next? Well, I keep a list of app ideas that I have and that list has been growing. These new releases seemed fairly doable considering the amount of free time that I've had lately and that they continued with my health and fitness theme so far. So I thought these would be a good decision to work on and they turned out to be a pretty good choice. While some of my ideas might still be a little bit over my skill level but I hope to get some new projects started fairly soon. I also obviously plan to keep these apps up to date and supported to the best of my ability, and hopefully add in a few new features when I can.</p>
+                          <p>I'm not sure how many people will end up using any of the apps that I make but it feels nice to make things that I want to use and to put them out there into the world. To anyone who reads this and does end up using any of my apps, thank you. I hope you enjoy my work. Feel free to drop me a line with any questions, bug reports, suggestions, or pretty much anything else <a href="https://twitter.com/_pmdev">@_pmdev</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End Content ====== -->
+
+    <!-- ====== Footer ====== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2017 Peter Mostoff</p>
+        </div>
+    </footer>
+    <!-- ====== End Footer ====== -->
+
+    <!-- ====== Javascript ====== -->
+    <script type="text/javascript" src="../assets/scripts/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="../assets/scripts/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="../assets/scripts/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="../assets/scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/scripts/main.js"></script>
+    <!-- ====== End Javascript ====== -->
+</body>
+</html>
